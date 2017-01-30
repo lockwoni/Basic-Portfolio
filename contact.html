@@ -5,27 +5,39 @@
 	<meta charset="UTF-8">
 	<title>Nicole Lockwood</title>
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
-</head>
+	<link rel="stylesheet" type="text/css" href="assets/reset.css">
 
-<body>
 	<header>
 		<h1>Nicole Lockwood</h1>
 	</header>
 
+	<ul>
+		<li><a href="index.html">About</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+
+</head>
+
+<body>
 	<div class="container">
 
 		<section id="Contact">
-
 			<h2>Contact</h2>
 
-				<h3>Name</h3>
-
-				<h3>Email</h3>
-
-				<h3>Message</h3>
-
-				<h3>Submit</h3>
-
+			<form >
+				Name<br>
+				<input type="text" name="name" value="John Smith">
+				<br>
+				Email<br>
+				<input type="text" name="email" value="example@gmail.com">
+				<br>
+				Message <br>
+				<textarea rows="5" cols="50" name="Message">
+				</textarea>
+				<br>
+				<input type="Submit" name="Submit" value="Submit">
+			</form>
 		</section>
 
 		<section id="connect">
